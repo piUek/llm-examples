@@ -11,11 +11,7 @@ This app showcases a growing collection of LLM minimum working examples.
 Current examples include:
 
 - Chatbot
-- File Q&A
-- Chat with Internet search
-- LangChain Quickstart
-- LangChain PromptTemplate
-- Chat with user feedback
+
 
 ## Demo App
 
