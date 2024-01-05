@@ -14,6 +14,7 @@ allowSelfSignedHttps(True) # this line is needed if you use self-signed certific
 
 url = 'https://pf-ivory-esg.swedencentral.inference.ml.azure.com/score'
 api_key = st.secrets['api_key']
+
 # api_key = ""
 if not api_key:
     raise Exception("A key should be provided to invoke the endpoint")
