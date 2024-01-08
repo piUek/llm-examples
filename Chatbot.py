@@ -34,7 +34,7 @@ if prompt := st.chat_input():
     data = st.session_state.messages[-1]
     print(data)
     body = str.encode(json.dumps(data))
-    headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key), 'azureml-model-deployment': 'pf-ivory-esg-3' }
+    headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key), 'azureml-model-deployment': 'pf-ivory-esg-4' }
 
     req = urllib.request.Request(url, body, headers)
 
