@@ -50,7 +50,7 @@ com_logo = '''<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" vie
     </g>
   </g>
 </svg>'''
-url = 'https://test-yp-ivory.swedencentral.inference.ml.azure.com/score'
+url = 'https://rg-com-innovation-hub-esg.swedencentral.inference.ml.azure.com/score'
 api_key = st.secrets['api_key']
 
 # api_key = ""
