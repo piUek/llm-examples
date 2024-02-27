@@ -58,8 +58,8 @@ if not api_key:
     raise Exception("A key should be provided to invoke the endpoint")
 
 # st.title("💬 Asystent")
-st.markdown('<h1>{} Asystent</h1>'.format(com_logo), unsafe_allow_html=True)
-st.caption("🚀 A streamlit chatbot powered by Clouds On Mars")
+st.markdown('<h1>{} AI Asystent</h1>'.format(com_logo), unsafe_allow_html=True)
+st.caption("🚀 A streamlit copilot powered by Clouds On Mars")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "question": "How can I help you?", "chat_history": []}]
 
